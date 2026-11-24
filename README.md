@@ -24,8 +24,6 @@ I built this as a learning project with Python (Jupyter), SQL Server Express and
 - Highest late rates by customer state: AL 21.41% (397 orders), MA 17.43% (717), SE 15.22% (335).
 - RJ has 12,350 eligible orders at 12.11%, far more orders than AL (397) even with a lower rate. RR shows 12.20%, but that is only 5 late out of 41 orders, so small states need care.
 
-![Power BI report](images/power_bi_dashboard.jpg)
-
 ## Repository contents
 
 | Path | What it is |
@@ -34,7 +32,6 @@ I built this as a learning project with Python (Jupyter), SQL Server Express and
 | `sql/01_checks_and_state_volume.sql` | Row counts, key checks, join check, eligible orders per state |
 | `sql/02_state_late_rate.sql` | Eligible orders, late orders and late rate by customer state |
 | `sql/03_reconciliation.sql` | Checks that the state rows add up to the overall totals |
-| `images/power_bi_dashboard.jpg` | Screenshot of the report |
 
 ## Limits
 
